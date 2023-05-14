@@ -1,16 +1,23 @@
-# gmail_phising_page
 Gmail Phishing Page 
 
-**1. Choose a domain name registrar:** There are many domain name registrars, such as GoDaddy, Namecheap, and Bluehost. Choose a registrar that meets your needs and budget.
-
-**2. Search for and purchase your domain name:** Use the registrar's search tool to find an available domain name that suits your needs. In my case it is (gooogleandaccounts......) Purchase the domain name and register it in your name.
-
-**3. Choose a web hosting provider:** There are many web hosting providers, such as Bluehost, HostGator, and DreamHost. Choose a provider that meets your needs and budget.
-
-**4. Sign up for web hosting:** Choose a hosting plan that meets your needs and sign up for an account with the hosting provider.
-
-**5. Connect your domain name to your hosting provider:** Log in to your domain name registrar account and update the DNS (Domain Name System) settings for your domain to point to your hosting provider. The DNS settings should include the name servers provided by your hosting provider.
-
-**6. Upload your website files to your hosting provider:** Use a file transfer protocol (FTP) client to upload your website files to your hosting provider's server. Make sure to follow the hosting provider's instructions for uploading files and setting up your website.
+You need SQL database and hosting server's file manager.
+000webhost provides all of them for free, 
 
 
+Here are the steps to upload the ```index.html``` and ```store_name.php``` files and set up a MySQL database:
+
+1. Log in to your site's file manager and navigate to the ```public_html``` folder.
+2. Upload the ```index.html``` and ```store_name.php``` files to the ```public_html``` folder.
+3. Create a MySQL database through your web hosting control panel or through the command line.
+4. Replace the credentials in the ```store_name.php``` file with your own database credentials.
+5. Save the changes to the ```store_name.php``` file.
+6. Test the database connection by submitting a form through the ```index.html``` page and checking if the data is successfully stored in the database.
+
+It is important to follow these steps carefully to ensure that the website is functioning properly and the data is being securely stored in the database.
+
+
+
+
+
+
+**Disclaimer:** This educational phishing page is intended for educational and research purposes only. We do not encourage or condone the use of phishing techniques to deceive or harm individuals or organizations. The purpose of this exercise is to demonstrate how phishing attacks work and how to protect against them. We urge you to use this information responsibly and to respect the privacy and security of others. We cannot be held responsible for any misuse or illegal activity that may result from the use of this educational phishing page.
